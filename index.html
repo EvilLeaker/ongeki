@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5PWDSV');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>オンゲキ bright MEMORY</title>
+  <link rel="shortcut icon" href="/assets/img/common/favicon.png">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="description" content="セガのmaimai・CHUNITHM制作チームが贈る新作音ゲー「オンゲキ bright MEMORY」!! レバーデバイスを使ってキャラクターを操作しリズムに合わせてボタンを叩いて遊ぶ、新しいスタイルの音楽ゲーム！">
+  
+  <!-- meta twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="オンゲキ公式サイト">
+  <meta name="twitter:title" content="オンゲキ bright MEMORY公式サイト｜セガ新作音ゲー">
+  <meta name="twitter:description" content="セガのmaimai・CHUNITHM制作チームが贈る新作音ゲー「オンゲキ bright MEMORY」!! レバーデバイスを使ってキャラクターを操作しリズムに合わせてボタンを叩いて遊ぶ、新しいスタイルの音楽ゲーム！">
+  <meta name="twitter:image" content="https://ongeki.sega.jp/assets/img/common/ogp.jpg">
+  <meta name="twitter:url" content="https://ongeki.sega.jp/">
+  <!-- /meta twitter -->
+  <!-- meta facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="オンゲキ bright MEMORY公式サイト｜セガ新作音ゲー">
+  <meta property="og:description" content="セガのmaimai・CHUNITHM制作チームが贈る新作音ゲー「オンゲキ bright MEMORY」!! レバーデバイスを使ってキャラクターを操作しリズムに合わせてボタンを叩いて遊ぶ、新しいスタイルの音楽ゲーム！">
+  <meta property="og:url" content="https://ongeki.sega.jp/">
+  <meta property="og:image" content="https://ongeki.sega.jp/assets/img/common/ogp.jpg">
+  <meta property="og:site_name" content="オンゲキ公式サイト">
+  <!-- /meta facebook -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script> window.ongekiRelativePath = "."; </script>
+  <script src="./assets/js/plugins/polyfill.js"></script>
+</head>
+<body class="top" id="top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PWDSV"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <div class="l-wrapper">
+    <!-- header -->
+    <header class="l-header" id="l-header">
+        <h1 class="l-header__logo">
+            <a class="l-header__logoLink" href="/">
+        <img src="./assets/img/common/logo_main.png" alt="オンゲキ bright MEMORY" />
+      </a>
+        </h1>
+        <div class="l-header__spBtn">
+            <div class="l-header__spBtnInner">
+                <div class="l-header__spBtnInner2">
+                    <span>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+                </div>
+            </div>
+        </div>
+        <div class="l-header__inner">
+            <nav class="l-header__nav l-header__nav--main">
+                <div class="l-header__navLine">
+                    <div class="l-header__navLabel">CONTENTS</div>
+                    <div class="l-header__navLineChild l-header__navLineChild--color1"></div>
+                </div>
+                <ul class="l-header__navList">
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--top" href="./index.html" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav1.png" alt="トップ">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav1_on.png" alt="トップ">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--news" href="#" target="_self">
+             				<img class="is-normal" src="./assets/img/common/gnav/nav2.png" alt="お知らせ">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav2_on.png" alt="お知らせ">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--introduction" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav3.png" alt="ストーリー">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav3_on.png" alt="ストーリー">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--character" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav7.png" alt="キャラクター">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav7_on.png" alt="キャラクター">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--how_to_play" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav4.png" alt="遊び方">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav4_on.png" alt="遊び方">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--music" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav5.png" alt="楽曲リスト">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav5_on.png" alt="楽曲リスト">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--ranking" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav6.png" alt="ランキング">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav6_on.png" alt="ランキング">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--cd" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav8.png" alt="CD">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav8_on.png" alt="CD">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--goods" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav9.png" alt="グッズ">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav9_on.png" alt="グッズ">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--special" href="#" target="_self">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav10.png" alt="スペシャル">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav10_on.png" alt="スペシャル">
+            			</a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--live" href="#" target="">
+              				<img class="is-normal" src="./assets/img/common/gnav/nav11.png" alt="ライブ">
+              				<img class="is-hover" src="./assets/img/common/gnav/nav11_on.png" alt="ライブ">
+            			</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="l-header__nav l-header__nav--other">
+                <div class="l-header__navLine">
+                    <div class="l-header__navLineChild l-header__navLineChild--color2"></div>
+                </div>
+                <ul class="l-header__navList">
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink l-header__navListLink--card" href="#" target="_self">
+              <img class="is-normal" src="./assets/img/common/gnav/nav12.png" alt="カードの取扱について">
+              <img class="is-hover" src="./assets/img/common/gnav/nav12_on.png" alt="カードの取扱について">
+            </a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink" href="#" target="_blank">
+              <img class="is-normal" src="./assets/img/common/gnav/nav13.png" alt="遊べるお店">
+              <img class="is-hover" src="./assets/img/common/gnav/nav13_on.png" alt="遊べるお店">
+            </a>
+                    </li>
+                    <li class="l-header__navListChild">
+                        <a class="l-header__navListLink" href="#" target="_blank">
+              <img class="is-normal" src="./assets/img/common/gnav/nav14.png" alt="オンゲキ-NET">
+              <img class="is-hover" src="./assets/img/common/gnav/nav14_on.png" alt="オンゲキ-NET">
+            </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--/ header -->
+	<!-- コンテンツ ここから -->
+            <div class="onetimebanner"></div>
+
+            <div class="l-upper">
+                <div class="p-top l-upper__child">
+                    <!-- KV -->
+                    <div class="p-top-kv">
+                        <div class="c-loaderCircle">
+                            <div></div>
+                            <p>loading...</p>
+                        </div>
+                        <!-- smoke -->
+                        <img class="p-top-kv__smoke p-top-kv__smoke--left" src="./assets/img/pages/top/kv/kv_bg_smoke_1.png" alt="">
+                        <img class="p-top-kv__smoke p-top-kv__smoke--right" src="./assets/img/pages/top/kv/kv_bg_smoke_2.png" alt="">
+                        <!-- /smoke -->
+                        <!-- slider -->
+                        <div class="p-top-kv__slider swiper-container">
+                            <div class="p-top-kv__sliderInner swiper-wrapper">
+                                <!-- ● -->
+                                <div class="p-top-kv__sliderChild swiper-slide">
+                                    <div class="p-top-kv__sliderImg is-checkImgsLoad"></div>
+                                </div>
+                                <!-- ● -->
+                                <div class="p-top-kv__sliderChild swiper-slide">
+                                    <video id="p-top-kv__sliderVideo" class="p-top-kv__sliderVideo" src="./assets/movie/pages/top/kv_slider_1.mp4"
+                                      poster="./assets/img/pages/top/sp/kv/kv_slider_1_brightMemory.jpg" playsinline muted loop autoplay preload="auto">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-top-kv__sliderBtns">
+                            <div class="p-top-kv__sliderBtn p-top-kv__sliderBtn--left"></div>
+                            <div class="p-top-kv__sliderBtn p-top-kv__sliderBtn--right"></div>
+                        </div>
+                        <!-- / slider -->
+                        <!-- 新要素 -->
+                        <a class="p-top-kv__bnrNew" href="#" target="_blank">
+                            <img src="./assets/img/pages/top/kv/bnr_5th.png" alt="KING OF PERFORMAI THE 5TH セガ音ゲー公式全国大会">
+                        </a>
+                        <!--/ 新要素 -->
+                        <!-- 帯 -->
+                        <div class="p-top-kv__band">
+                            <div class="p-top-kv__bandChild p-top-kv__bandChild--left"></div>
+                            <div class="p-top-kv__bandChild p-top-kv__bandChild--right"></div>
+                            <div id="p-top-kv__bnrsSp" class="p-top-kv__bnrs p-top-kv__bnrs--sp"></div>
+                        </div>
+                        <!-- /帯 -->
+                        <div id="p-top-kv__bnrs" class="p-top-kv__bnrs p-top-kv__bnrs--pc"></div>
+                        <div id="p-top-kv__search" class="p-top-kv__search"></div>
+                    </div>
+                    <!--/ KV -->
+
+                    <!-- トピックス -->
+                    <div id="p-top-topics"></div>
+                    <!--/ トピックス -->
+
+                    <!-- NEWS -->
+                    <div id="p-top-news"></div>
+                    <!--/ NEWS -->
+
+                    <div class="p-top-skyBg">
+                        <!-- HOW TO PLAY -->
+                        <section class="p-top-howtoplay p-top-section" id="p-top-howtoplay">
+                            <!-- sectionTitle -->
+                            <h2 class="c-sectionTitle p-top-section__title c-sectionTitle--border">
+                                <span>HOW TO PLAY</span>
+                                <span>「114514」ってどんなゲーム？</span>
+                            </h2>
+                            <!--/ sectionTitle -->
+                            <div class="p-top-howtoplay__contents">
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--1"></div>
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--2"></div>
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--3"></div>
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--4"></div>
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--5"></div>
+                                <div class="p-top-howtoplay__border p-top-howtoplay__border--6"></div>
+                                <div class="p-top-howtoplay__contentsInner">
+                                    <picture class="p-top-howtoplay__photo">
+                                        <source media="(min-width: 769px)" srcset="./assets/img/pages/top/howtoplay/howtoplay_ph.png" />
+                                        <source media="(max-width: 768px)" srcset="./assets/img/pages/top/sp/howtoplay/howtoplay_ph.png" />
+                                        <img src="./assets/img/pages/top/howtoplay_ph.png" alt="" />
+                                    </picture>
+                                    <div class="p-top-howtoplay__text">
+                                        <p>
+                                            <span>「RAPE DEVICE」</span>を使って<br />キャラクターを操作しながら遊ぶ<br /> ゲームセンターでプレイできる
+                                            <span>音楽ゲーム</span>
+                                        </p>
+                                        <p>
+                                            ゲームで手に入れたカードを<br />
+                                            <span>「CARD MAKER」</span>でプリントして 使うことができる！
+                                        </p>
+                                    </div>
+                                    <!-- normalBtn -->
+                                    <div class="p-top-howtoplay__btnWrap">
+                                        <div class="c-normalBtn p-top-howtoplay__btn">
+                                            <a href="#">
+                                                <span>HOW TO RAPE</span>
+                                                <i></i>
+                                            </a>
+                                        </div>
+                                        <div class="c-normalBtn p-top-howtoplay__btn">
+                                            <a href="#">
+                                                <span>MUSIC LIST</span>
+                                                <i></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--/ normalBtn -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--/ HOW TO PLAY -->
+                        <!-- CHARACTER -->
+                        <section class="p-top-character p-top-section">
+                            <!-- sectionTitle -->
+                            <h2 class="c-sectionTitle p-top-section__title c-sectionTitle--border p-top-character__title">
+                                <span>CHARACTER</span>
+                                <span>1145141919810</span>
+                            </h2>
+                            <!--/ sectionTitle -->
+                            <div class="p-top-character__ph">
+                                <picture>
+                                    <source media="(min-width: 769px)" srcset="./assets/img/pages/top/character/character_ph.png" />
+                                    <source media="(max-width: 768px)" srcset="./assets/img/pages/top/sp/character/character_ph.png" />
+                                    <img src="./assets/img/pages/top/character/character_ph.png" alt="" />
+                                </picture>
+                            </div>
+                            <!-- normalBtn -->
+                            <div class="c-normalBtn p-top-character__btn">
+                                <a href="/character/">
+                                    <span>キャラクターを見る</span>
+                                    <i></i>
+                                </a>
+                            </div>
+                            <!--/ normalBtn -->
+                        </section>
+                        <!--/ CHARACTER -->
+                    </div>
+                    <!-- MUSIC -->
+                    <section class="p-top-music p-top-section">
+                        <!-- sectionTitle -->
+                        <h2 class="c-sectionTitle p-top-section__title">
+                            <span>MUSIC</span>
+                            <span>オリジナル楽曲参加アーティスト</span>
+                        </h2>
+                        <!--/ sectionTitle -->
+                        <p class="p-top-music__catch">
+                            定番のアニメ楽曲から、<br class="no_pc">niconico動画で人気の楽曲、<br> 東方Projectアレンジ楽曲など、
+                            <br class="no_pc">様々なジャンルの楽曲を収録！<br> さらに、豪華コンポーザー陣による
+                            <br class="no_pc">オリジナル楽曲も充実！<br><br>
+                        </p>
+                        <div class="p-top-music__inner">
+                            <p class="p-top-music__artist">
+                                <span class="p-top-music__artist_title">オンゲキキャラクター歌唱曲<br class="no_pc">作曲アーティスト(一部)</span> kz(livetune) / NAOKI MAEDA /<br> Q-MHz / TeddyLoid / Tom-H@ck /<br> ZAQ / 上松範康(Elements Garden) /<br> ヒゲドライバー / 本多友紀（Arte Refact）/<br>                                前山田健一 / 宮崎誠 / 睦月周平 / ゆよゆっぺ
+                            </p>
+                            <br>
+                            <p class="p-top-music__artist">
+                                <span class="p-top-music__artist_title">オリジナル楽曲<br class="no_pc">参加アーティスト(一部)</span> BlackY vs. Yooh / cosMo＠暴走P /<br> Cranky,Morrigan feat.Lily /<br> Feryquitous / Laur /<br> Maozon / Project Grimoire /<br> REDALiCE /
+                                t+pazolite / USAO /<br> xi / かねこちはる / ぺのれり<br><br>
+                            </p>
+
+                            <p class="p-top-music__caution">※五十音順</p>
+                            <p class="p-top-music__text">他にも多数参加!</p>
+                        </div>
+                        <!-- normalBtn -->
+                        <div class="c-normalBtn p-top-music__btn">
+                            <a href="/music/">
+                                <span>楽曲リストを見る</span>
+                                <i></i>
+                            </a>
+                        </div>
+                        <!--/ normalBtn -->
+                    </section>
+                    <!--/ MUSIC -->
+                    <!-- TWITTER -->
+                    <section class="p-top-twitter p-top-section">
+                        <!-- sectionTitle -->
+                        <h2 class="c-sectionTitle p-top-section__title">
+                            <span>X (TWITTER)</span>
+                            <span>公式 X (TWITTER)</span>
+                        </h2>
+                        <!--/ sectionTitle -->
+                        <div class="p-top-twitter__body">
+                        <!-- Twitterタイムラインを非表示。復活の可能性あるが、現状はログイン状態でないといいねが多い順で表示されてしまうため。 -->
+                            <!-- <a class="twitter-timeline" data-dnt="true" data-theme="light" data-width="720" data-height="530" data-chrome="noheader nofooter" 
+														href="https://twitter.com/ongeki_official?ref_src=twsrc%5Etfw">Tweets by
+                                ongeki_official</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                            <div class="p-top-twitter__btn">
+                                <a href="https://twitter.com/ongeki_official" target="_blank" rel="noopener">
+                                    <img src="./assets/img/pages/top/twitter/twitter_btn.png" alt="オンゲキ公式X (Twitter)" />
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <!--/ TWITTER -->
+                    <!-- Bnrs -->
+                    <div id="p-top-underBnrs"></div>
+                    <!--/ Bnrs -->
+                    <!-- scrollTopBtn -->
+                    <div id="c-scrollTopBtn"></div>
+                    <!--/ scrollTopBtn -->
+                </div>
+            </div>
+
+
+            <!-- コンテンツ ここまで -->
+              <!-- footer -->
+  <footer class="l-footer" id="l-footer">
+    <div class="l-footer__sns">
+      <ul class="l-footer__snsInner">
+        <li class="l-footer__snsChild">
+          <a
+            class="l-footer__snsBtn l-footer__snsBtn--twitter"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="./assets/img/common/ic_tw.png" alt="twitter share" />
+          </a>
+        </li>
+        <li class="l-footer__snsChild">
+          <a
+            class="l-footer__snsBtn l-footer__snsBtn--facebook"
+            href="#"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="./assets/img/common/ic_fb.png" alt="facebook share" />
+          </a>
+        </li>
+        <li class="l-footer__snsChild">
+          <a class="l-footer__snsBtn l-footer__snsBtn--line">
+            <img src="./assets/img/common/ic_li.png" alt="line share" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="l-footer__main">
+      <p class="l-footer__text">
+        <small class="l-footer__copyright">©SEGA</small><br />
+        「オンゲキ」公式Webサイトは、<br class="sp-br" />
+        <a
+          href="https://www.sega.co.jp/"
+          target="_blank"
+          >株式会社セガ</a
+        >が運営しております。<br />
+        <a
+          href="https://sega.jp/contact/arcade/"
+          class="l-footer__textLink"
+          target="_blank"
+          rel="noopener"
+          >【お問い合わせはこちら】</a
+        ><br />
+        個人情報の取り扱いについては
+        <a
+          href="https://www.sega.co.jp/privacypolicy/index.html"
+          class="l-footer__textLink"
+          target="_blank"
+          rel="noopener"
+          >プライバシーポリシー</a
+        >
+        を参照下さい。<br />
+        本サイトで使用されている画像、文章、情報、音声、動画、等は株式会社セガの<br />
+        著作権により保護されております。<br />
+        著作権者の許可無く、複製、転載などの行為を禁止いたします。
+      </p>
+    </div>
+    <div class="l-footer__logo">
+      <a class="l-footer__logoLink" href="https://sega.jp/" target="_blank" rel="noopener">
+        <img src="./assets/img/common/logo_sega.png" alt="SEGA" />
+      </a>
+    </div>
+  </footer>
+  <!--/ footer -->
+</div>
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o3cev');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+<script src="./assets/js/vendor.bundle.js"></script>
+<script src="./assets/js/modules.bundle.js"></script>
+<script src="./assets/js/common.bundle.js"></script>
+
+<script src="./assets/js/top.bundle.js"></script>
+
+</body>
+</html>

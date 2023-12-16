@@ -1,0 +1,51 @@
+{
+  "topbnr": [
+    {
+      "style": {
+        "backgroundImage": "url('https://chunithm.sega.jp/bnr_otogames/bnr_otogames.jpg')",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "auto 100%",
+        "backgroundPosition": "25% 0"
+      },
+      "href": "https://chunithm.sega.jp/player/",
+      "target": "_blank"
+    },
+    {
+      "style": {
+        "backgroundImage": "url('https://chunithm.sega.jp/bnr_otogames/bnr_otogames.jpg')",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "auto 100%",
+        "backgroundPosition": "50% 0"
+      },
+      "href": "https://chunithm.sega.jp/irodorimidori/",
+      "target": "_blank"
+    },
+    {
+      "style": {
+        "backgroundImage": "url('https://chunithm.sega.jp/bnr_otogames/bnr_otogames.jpg')",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "auto 100%",
+        "backgroundPosition": "75% 0"
+      },
+      "href": "https://maimai.sega.jp",
+      "target": "_blank"
+    },
+    {
+      "style": {
+        "backgroundImage": "url('https://chunithm.sega.jp/bnr_otogames/bnr_otogames.jpg')",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "auto 100%",
+        "backgroundPosition": "100% 0"
+      },
+      "href": "https://maimai.sega.jp/kotonoha/",
+      "target": "_blank"
+    }
+  ],
+  "bottombnr": [
+    {
+      "img": "./assets/img/pages/top/underBnr/banner_05.png",
+      "href": "https://ch.nicovideo.jp/maimai-channel",
+      "target": "_blank"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "00",
+    "label": "最近追加された楽曲",
+    "query": ""
+  },
+  {
+    "id": "06",
+    "label": "オンゲキ",
+    "query": "ongeki"
+  },
+  {
+    "id": "01",
+    "label": "POPS & ANIME",
+    "query": "pops_and_anime"
+  },
+  {
+    "id": "02",
+    "label": "niconico",
+    "query": "niconico"
+  },
+  {
+    "id": "03",
+    "label": "東方Project",
+    "query": "touhou"
+  },
+  {
+    "id": "04",
+    "label": "VARIETY",
+    "query": "variety"
+  },
+  {
+    "id": "05",
+    "label": "チュウマイ",
+    "query": "chumai"
+  },
+  {
+    "id": "bonus",
+    "label": "ボーナストラック",
+    "query": "bonus"
+  },
+  {
+    "id": "lunatic",
+    "label": "LUNATIC",
+    "query": "lunatic"
+  }
+]
