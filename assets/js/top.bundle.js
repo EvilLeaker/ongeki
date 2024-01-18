@@ -473,7 +473,7 @@
                 staticClass: "p-top-kv__searchInner"
             }, [n("h2", {
                 staticClass: "p-top-kv__searchTitle"
-            }, [t._v("\n      可游玩公益服\n    ")]), t._v(" "), n("div", {
+            }, [t._v("\n      ???????\n    ")]), t._v(" "), n("div", {
                 staticClass: "p-top-kv__searchCols"
             }, [n("div", {
                 staticClass: "p-top-kv__searchCol"
@@ -484,7 +484,7 @@
                 on: {
                     click: t.getLocation
                 }
-            }, [t._v("\n          可用服务器一览\n        ")])]), t._v(" "), n("div", {
+            }, [t._v("\n          ????????\n        ")])]), t._v(" "), n("div", {
                 staticClass: "p-top-kv__searchCol"
             }, [n("label", {
                 staticClass: "p-top-kv__searchLabel"
