@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/* ---------------------------------------
+  news_WP
+--------------------------------------- */
+
+@font-face {
+    font-family: 'M+ 1p bold';
+    src: url('../fonts/MPLUS1p-Bold.eot?') format('eot'), url('../fonts/MPLUS1p-Bold.woff2') format('woff2'), url('../fonts/MPLUS1p-Bold.woff') format('woff'), url('../fonts/MPLUS1p-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'M+ 1p medium';
+    src: url('../fonts/MPLUS1p-Medium.eot?') format('eot'), url('../fonts/MPLUS1p-Medium.woff2') format('woff2'), url('../fonts/MPLUS1p-Medium.woff') format('woff'), url('../fonts/MPLUS1p-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefin Sans bold';
+    src: url('../fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+strong {font-weight:bold !important;}
+
+/* list */
+
+ul.normal {
+    font-size: 1.6rem;
+    text-align: left;
+    list-style: circle;
+    margin-left: 1em;
+}
+
+ol.normal {
+    font-size: 1.6rem;
+    text-align: left;
+    list-style: decimal;
+    margin-left: 1em;
+}
+
+ul.normal li,
+ol.normal li {
+    margin: .5em 0;
+}
+
+.p-news__articleBody p {
+    white-space: normal !important;
+}
+
+.p-news__articleBodyInner .cardimg-inner-box {
+    white-space: normal !important;
+}
+
+.p-news__articleBodyInner .cardimg-inner-box {
+    padding: 10px 10px !important;
+}
+
+
+/*ページネーション*/
+
+.p-news__pagenationWP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+    padding: 0 0 30px;
+}
+
+.p-news__pagenationBtnWP {
+    flex: 1;
+    text-align: center;
+}
+
+.p-news__pagenationBtnWP--prev a,
+.p-news__pagenationBtnWP--next a,
+#p-news__pagenationBtnBack {
+    display: block;
+    width: 133px;
+    height: 34px;
+    margin: 0px 20px;
+    color: transparent;
+    font-size: 0;
+}
+
+.p-news__pagenationBtnWP--prev a:hover,
+.p-news__pagenationBtnWP--next a:hover {
+    opacity: .7;
+}
+
+.p-news__pagenationBtnWP--prev a {
+    background: url('../img/button_news_prev.png') no-repeat center/contain;
+}
+
+.p-news__pagenationBtnWP--next a {
+    background: url('../img/button_news_next.png') no-repeat center/contain;
+}
+
+#p-news__pagenationBtnBack {
+    background: url('../img/button_news_back.png') no-repeat center/contain;
+}
+
+.piapro-newslogo {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 4em;
+    height: 1.2em;
+    background-image: url(https://performai.evilleaker.com/ongeki/assets/img/pages/music/copyright/piapro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    padding: 0;
+    margin: 0 .5em;
+    color: transparent;
+}
+
+@media screen and (max-width:768px) {
+    .p-news__pagenationWP {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    .p-news__pagenationBtnWP--prev a,
+    .p-news__pagenationBtnWP--next a {
+        display: block;
+        width: 93%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 0 20%;
+        color: transparent;
+        font-size: 0;
+    }
+    .p-news__articleBodyInner iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .piapro-newslogo {
+        height: 1.3em;
+    }
+}
+
+
+/*カテゴリactive*/
+
+.p-news__tabsInner.all .p-news__tab:nth-child(1),
+.p-news__tabsInner.game .p-news__tab:nth-child(2),
+.p-news__tabsInner.cardmaker .p-news__tab:nth-child(3),
+.p-news__tabsInner.event-release .p-news__tab:nth-child(4) {
+    color: #000;
+    background: #fff;
+}
+
+.p-news__tabsInner.all .p-news__tab:nth-of-type(1) i,
+.p-news__tabsInner.game .p-news__tab:nth-of-type(2) i,
+.p-news__tabsInner.cardmaker .p-news__tab:nth-of-type(3) i,
+.p-news__tabsInner.event-release .p-news__tab:nth-of-type(4) i {
+    border-color: #000;
+}
+
+
+/*color*/
+
+.p-news__listTextUpper--event-release,
+.p-news__articleInfo--event-release {
+    color: #0084ff;
+}
+
+
+/* 位置揃え */
+
+.p-news__articleBodyInner iframe,
+.aligncenter {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.alignright {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+}
+
+.alignleft {
+    display: block;
+    text-align: left;
+    margin-right: auto;
+}
+
+
+/*カード情報内pの回り込み防止*/
+
+.p-news__articleBodyInner .cardimg-inner-box p {
+    display: block!important;
+    margin: 5px 0;
+}
+
+
+/* 色アイコンのafterを空文字にする */
+
+.p-news__articleBodyInner .cardimg-inner-box .icon_f:after {
+    content: ''!important;
+}
+
+.p-news__articleBodyInner .cardimg-inner-box .icon_l:after {
+    content: ''!important;
+}
+
+.p-news__articleBodyInner .cardimg-inner-box .icon_a:after {
+    content: ''!important;
+}
+
+/* table*/
+.p-news__articleBody table,
+.p-news__articleBody table th,
+.p-news__articleBody table td {
+  word-break: break-all;
+}
+.p-news__articleBody table td:first-child,.p-news__articleBody table td {
+  padding: 3px!important;;
+}

@@ -17910,3 +17910,27 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
     -ms-perspective: 1200px
 }
+
+.title_code {
+	font-size: 14px;
+	font-weight: bold;
+	color: #EB5757;
+	background-color: #EDEDEB;
+}
+
+.title_h1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgba(232,0,255,1.00);
+}
+
+.title_h2 {
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(26,0,255,1.00);
+}
+
+.lable_h1 {
+	font-weight: bold;
+	color: red;
+}
