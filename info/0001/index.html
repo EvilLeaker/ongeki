@@ -409,15 +409,15 @@
 						&nbsp;&nbsp;&nbsp;&deg; 下载手台上位机程序
 						&nbsp;&nbsp;<a href="https://www.dj-dao.com/SUPPORT/ONTROLLER-options-V1.8-20231116.zip"><b>[点此下载 ONTROLLER-options-V1.8]</b></a>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■插入手台的USB TYPE-B数据线
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 插入手台的USB TYPE-B数据线
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■解压后打开<span class="title_code">ONTROLLER-options-V1.8.exe</span> (界面语言可在右侧切换)
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 解压后打开<span class="title_code">ONTROLLER-options-V1.8.exe</span> (界面语言可在右侧切换)
 						<br />
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../tutorial/t_0006.png" width="600" height="447">
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■<span class="title_code">Mode switch</span>下拉菜单选择<span class="title_code">WINUSB mode</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ <span class="title_code">Mode switch</span>下拉菜单选择<span class="title_code">WINUSB mode</span>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■点击<span class="title_code">Click to switch</span>切换模式，听到USB连接声音后关闭软件即可
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 点击<span class="title_code">Click to switch</span>切换模式，听到USB连接声音后关闭软件即可
 						<br />
 						&bull; <span class="title_code">ONTROLLER-options</span>的其他操作以及介绍可以点击<a href="https://www.dj-dao.com/cn/support/20.html"><b>查看官网</b></a>
 						<br />
@@ -479,38 +479,38 @@
 						<pre><img src="../tutorial/t_0009.png" width="500"></pre>
 					<p>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 常⻅情况是，机器的CPU是Intel第⼗代酷睿或者更新的CPU，同时⼜打开了<span class="title_code">ALL.Net Accounting</span>机制（这个机制默认开的）。由于这个机制使⽤了OpenSSL的较早期版本，⽽在新的CPU上因为Intel的bug会导致应⽤崩溃。
+						&nbsp;&nbsp;&nbsp;&deg; 常⻅情况是，机器的CPU是Intel第⼗代酷睿或者更新的CPU，同时⼜打开了<span class="title_code">ALL.Net Accounting</span>机制（这个机制默认开的）。由于这个机制使⽤了OpenSSL的较早期版本，⽽在新的CPU上因为Intel的bug会导致应⽤崩溃。
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 添加<span class="title_code">OPENSSL</span>系统变量
+						&nbsp;&nbsp;&nbsp; ■添加<span class="title_code">OPENSSL</span>系统变量
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&deg; 我的电脑(此电脑)→<span class="title_code">属性</span>→<span class="title_code">高级系统设置</span>→<span class="title_code">高级选项卡</span>→<span class="title_code">环境变量</span>
+						&nbsp;&nbsp;&nbsp; ■我的电脑(此电脑)→<span class="title_code">属性</span>→<span class="title_code">高级系统设置</span>→<span class="title_code">高级选项卡</span>→<span class="title_code">环境变量</span>
 					</p>
-			 		<pre><img src="tutorial/t_0010.png"></pre>
+			 		<pre><img src="../tutorial/t_0010.png"></pre>
 					<p>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&deg; 在<span class="title_code">系统变量</span>中<span class="title_code">新建</span>新的变量并填入以下信息
+						&nbsp;&nbsp;&nbsp; ■在<span class="title_code">系统变量</span>中<span class="title_code">新建</span>新的变量并填入以下信息
 					</p>
 					<pre><img src="../tutorial/t_0011.png" width="500"></pre>
 					<p>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&deg; <span class="title_code">变量名 : </span>OPENSSL_ia32cap <span class="title_code">变量值 : </span>~0x20000000
+						&nbsp;&nbsp;&nbsp; ■<span class="title_code">变量名 : </span>OPENSSL_ia32cap <span class="title_code">变量值 : </span>~0x20000000
 					</p>
 					<pre><img src="../tutorial/t_0012.png" width="500"></pre>
 					<p>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&deg; 点击确定保存系统变量设定
+						&nbsp;&nbsp;&nbsp; ■点击确定保存系统变量设定
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&deg; 建议重启电脑后再运行游戏
+						&nbsp;&nbsp;&nbsp; ■建议重启电脑后再运行游戏
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 添加<span class="title_code">OPENSSL</span>系统变量
+						&nbsp;&nbsp;&nbsp; ■如果上述方法无法解决，可以尝试关闭游戏及<span class="title_code">inject窗口</span>，鼠标右键以管理员启动<span class="title_code">start.bat</span>
 					</p>
 					<p>&nbsp;&nbsp;&nbsp;&deg; 接下来会来到网络自检，如下图</p>
 					<pre><img src="../tutorial/t_0013.png" width="500"></pre>
 					<p>
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 此时如果所有自检项目均为<span class="title_code">GOOD</span>，表示通过，请继续向下阅读
+						&nbsp;&nbsp;&nbsp; ■此时如果所有自检项目均为<span class="title_code">GOOD</span>，表示通过，请继续向下阅读
 						<br />
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ■ 如果一直卡在<span class="title_code">Aime Check</span>过不去，可以尝试下面的方法
+						&nbsp;&nbsp;&nbsp; ■如果一直卡在<span class="title_code">Aime Check</span>过不去，可以尝试下面的方法
 					</p>
 					<pre><img src="../tutorial/t_0014.png" width="500"></pre>
 					<p>
@@ -552,7 +552,7 @@
 <div class="p-news__pagenationWP">
     <a
         id="p-news__pagenationBtnBack"
-        href="https://info-ongeki.sega.jp/category/event-release/"
+        href="https://performai.evilleaker.com/ongeki/info/manual/"
         class="p-news__pagenationBtnWP p-news__pagenationBtnWP--next">
         <span>一覧に戻る</span>
         <i></i>
@@ -595,11 +595,11 @@
           /></svg></span>
     </a>
     <!-- ● -->
-    <a href="https://ongeki.sega.jp/live/" class="c-detailBnr__child c-detailBnr__child--2">
+    <a href="#" class="c-detailBnr__child c-detailBnr__child--2">
       <span>LIVE情報</span>
     </a>
     <!-- ● -->
-    <a href="https://ongeki.sega.jp/news/archive_summer/" target="_blank" class="c-detailBnr__child c-detailBnr__child--3">
+    <a href="#" target="_blank" class="c-detailBnr__child c-detailBnr__child--3">
       <span>過去の<br />ニュースを見る</span>
     </a>
     <!-- ● -->
